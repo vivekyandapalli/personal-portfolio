@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./Header.css";
+import { BASE_PATH } from '../../config';
 
 const routeVariants = {
   initial: {
@@ -38,7 +39,7 @@ const Header = () => {
     >
       <div className="m-5">
         <NavLink
-          to="/home"
+          to={`${BASE_PATH}/home`}
           className={`navlink ${
             NAV_ORDER.indexOf("Home") < NAV_ORDER.indexOf(currentSection)
               ? "before-active-nav-link"
@@ -49,7 +50,7 @@ const Header = () => {
           Home
         </NavLink>
         <NavLink
-          to="/experience"
+          to={`${BASE_PATH}/experience`}
           className={`navlink ${
             NAV_ORDER.indexOf("Experience") < NAV_ORDER.indexOf(currentSection)
               ? "before-active-nav-link"
@@ -60,7 +61,7 @@ const Header = () => {
           Experience
         </NavLink>
         <NavLink
-          to="/contact"
+          to={`${BASE_PATH}/contact`}
           className={`navlink ${
             NAV_ORDER.indexOf("Contact") < NAV_ORDER.indexOf(currentSection)
               ? "before-active-nav-link"

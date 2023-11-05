@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/home/home";
 import Experience from "./components/Experience/Experience";
 import wave from "./wave.svg";
+import { BASE_PATH } from './config';
 
 const App = () => (
   <>
@@ -29,12 +30,12 @@ export default App;
 
 function RoutesWithAnimation() {
   const location = useLocation();
-
+  console.log(BASE_PATH);
   return (
     <Routes location={location} key={location.key}>
-      <Route index element={<Navigate to="/home" replace />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/experience" element={<Experience />} />
+      <Route index element={<Navigate to={`${BASE_PATH}/home`} replace />} />
+      <Route path={`${BASE_PATH}/home`} element={<Home />} />
+      <Route path={`${BASE_PATH}/experience`} element={<Experience />} />
     </Routes>
   );
 }
