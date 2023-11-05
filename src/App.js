@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useLocation, Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+import Header from "./components/Header/Header";
+import Home from "./components/home/home";
+import Experience from "./components/Experience/Experience";
+import wave from "./wave.svg";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+  <>
+    <div id="main-page" className="mx-8 h-screen overflow-scroll sm:overflow-hidden">
+      <BrowserRouter>
+        <div className="flex flex-col h-full">
+          <Header />
+          <div className="grow">
+            <AnimatePresence>
+              <RoutesWithAnimation />
+            </AnimatePresence>
+          </div>
+        </div>
+      </BrowserRouter>
     </div>
-  );
-}
+    <div className="absolute bottom-0 w-full -z-10 h-36 sm:h-72" style={{backgroundImage: `url(${wave})`, backgroundSize: "cover"}}>
+    </div>
+  </>
+);
 
 export default App;
+
+function RoutesWithAnimation() {
+  const location = useLocation();
+
+  return (
+    <Routes location={location} key={location.key}>
+      <Route index element={<Navigate to="/home" replace />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/experience" element={<Experience />} />
+    </Routes>
+  );
+}

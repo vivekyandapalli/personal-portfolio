@@ -1,0 +1,18 @@
+#home-page {
+  width: 100%;
+  height: 100%;
+}
+
+#self-description {
+  padding: auto;
+}
+
+#name,
+#job-description-container {
+  font-family: 'League Spartan', sans-serif;
+}
+
+#greeting {
+  color: #7a7a7a;
+}
+
