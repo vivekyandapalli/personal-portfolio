@@ -1,1 +1,1 @@
-export const BASE_PATH = "personal-portfolio";
+export const BASE_PATH = "";

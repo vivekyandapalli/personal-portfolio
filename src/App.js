@@ -1,5 +1,5 @@
 import "./App.css";
-import { useLocation, Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
+import { useLocation, Routes, Route, HashRouter, Navigate } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header/Header";
 import Home from "./components/home/home";
@@ -10,7 +10,7 @@ import { BASE_PATH } from './config';
 const App = () => (
   <>
     <div id="main-page" className="mx-8 h-screen overflow-scroll sm:overflow-hidden">
-      <BrowserRouter>
+      <HashRouter>
         <div className="flex flex-col h-full">
           <Header />
           <div className="grow">
@@ -19,7 +19,7 @@ const App = () => (
             </AnimatePresence>
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
     <div className="absolute bottom-0 w-full -z-10 h-36 sm:h-72" style={{backgroundImage: `url(${wave})`, backgroundSize: "cover"}}>
     </div>
