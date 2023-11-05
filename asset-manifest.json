@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.35e810c5.css",
-    "main.js": "/personal-portfolio/static/js/main.241a6706.js",
-    "static/js/787.e02c0aaf.chunk.js": "/personal-portfolio/static/js/787.e02c0aaf.chunk.js",
+    "main.css": "/personal-portfolio/static/css/main.a76db2af.css",
+    "main.js": "/personal-portfolio/static/js/main.aca5ae8f.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/profile-pic.png": "/personal-portfolio/static/media/profile-pic.d8c078afecaad4808f54.png",
     "static/media/league-spartan-latin-200-normal.woff": "/personal-portfolio/static/media/league-spartan-latin-200-normal.07aae7dafa56e878ccdf.woff",
     "static/media/league-spartan-latin-800-normal.woff": "/personal-portfolio/static/media/league-spartan-latin-800-normal.cd29dd4d50c0b52f4b6e.woff",
@@ -24,12 +24,12 @@
     "static/media/league-spartan-latin-900-normal.woff2": "/personal-portfolio/static/media/league-spartan-latin-900-normal.0b8373e23ff0139fa452.woff2",
     "index.html": "/personal-portfolio/index.html",
     "static/media/wave.svg": "/personal-portfolio/static/media/wave.6f0cf9f79c4d7580ac41fe585495549c.svg",
-    "main.35e810c5.css.map": "/personal-portfolio/static/css/main.35e810c5.css.map",
-    "main.241a6706.js.map": "/personal-portfolio/static/js/main.241a6706.js.map",
-    "787.e02c0aaf.chunk.js.map": "/personal-portfolio/static/js/787.e02c0aaf.chunk.js.map"
+    "main.a76db2af.css.map": "/personal-portfolio/static/css/main.a76db2af.css.map",
+    "main.aca5ae8f.js.map": "/personal-portfolio/static/js/main.aca5ae8f.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35e810c5.css",
-    "static/js/main.241a6706.js"
+    "static/css/main.a76db2af.css",
+    "static/js/main.aca5ae8f.js"
   ]
 }
