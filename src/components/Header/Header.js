@@ -3,6 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./Header.css";
 import { BASE_PATH } from '../../config';
+import logo from './logo.png';
 
 const routeVariants = {
   initial: {
@@ -35,8 +36,11 @@ const Header = () => {
       variants={routeVariants}
       initial="initial"
       animate="final"
-      className="text-center sm:text-right fixed w-full bg-white z-10"
+      className="flex justify-between items-center fixed w-full bg-white z-10"
     >
+      <div>
+        <img width="60" height="60" src={logo} alt="Logo" />
+      </div>
       <div className="m-5">
         <NavLink
           to={`${BASE_PATH}/home`}
