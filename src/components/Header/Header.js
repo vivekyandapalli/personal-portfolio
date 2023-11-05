@@ -35,7 +35,7 @@ const Header = () => {
       variants={routeVariants}
       initial="initial"
       animate="final"
-      className="text-center sm:text-right fixed w-full bg-white"
+      className="text-center sm:text-right fixed w-full bg-white z-10"
     >
       <div className="m-5">
         <NavLink
