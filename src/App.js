@@ -10,7 +10,7 @@ import { BASE_PATH } from './config';
 
 const App = () => (
   <>
-    <div id="main-page" className="mx-8 h-screen overflow-scroll sm:overflow-hidden">
+    <div id="main-page" className="px-8 h-screen overflow-scroll sm:overflow-hidden">
       <HashRouter>
         <div className="flex flex-col h-full">
           <Header />
