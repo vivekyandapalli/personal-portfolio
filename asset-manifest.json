@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vivekyandapalli/personal-portfolio/static/css/main.0e3fa836.css",
-    "main.js": "/vivekyandapalli/personal-portfolio/static/js/main.87c8baab.js",
+    "main.js": "/vivekyandapalli/personal-portfolio/static/js/main.02aa2ca0.js",
     "static/js/787.e02c0aaf.chunk.js": "/vivekyandapalli/personal-portfolio/static/js/787.e02c0aaf.chunk.js",
     "static/media/profile-pic.png": "/vivekyandapalli/personal-portfolio/static/media/profile-pic.d8c078afecaad4808f54.png",
     "static/media/league-spartan-latin-200-normal.woff": "/vivekyandapalli/personal-portfolio/static/media/league-spartan-latin-200-normal.07aae7dafa56e878ccdf.woff",
@@ -25,11 +25,11 @@
     "index.html": "/vivekyandapalli/personal-portfolio/index.html",
     "static/media/wave.svg": "/vivekyandapalli/personal-portfolio/static/media/wave.6f0cf9f79c4d7580ac41fe585495549c.svg",
     "main.0e3fa836.css.map": "/vivekyandapalli/personal-portfolio/static/css/main.0e3fa836.css.map",
-    "main.87c8baab.js.map": "/vivekyandapalli/personal-portfolio/static/js/main.87c8baab.js.map",
+    "main.02aa2ca0.js.map": "/vivekyandapalli/personal-portfolio/static/js/main.02aa2ca0.js.map",
     "787.e02c0aaf.chunk.js.map": "/vivekyandapalli/personal-portfolio/static/js/787.e02c0aaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e3fa836.css",
-    "static/js/main.87c8baab.js"
+    "static/js/main.02aa2ca0.js"
   ]
 }
