@@ -1,7 +1,6 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
-import { useSwipeable } from "react-swipeable";
-import { motion } from "framer-motion";
+import { m, motion } from "framer-motion";
 import profile from "./profile-pic.png";
 import linkedin from "./linkedin.png";
 import github from "./github.png";
@@ -33,9 +32,6 @@ const skills = [
 ];
 
 function Home() {
-  const handlers = useSwipeable({
-    onSwipedRight: (eventData) => alert("User Swiped!"),
-  });
   return (
     <motion.div
       className="w-full h-full"
@@ -44,7 +40,7 @@ function Home() {
       initial="initial"
       animate="final"
     >
-      <div {...handlers} className="w-full h-full flex items-center mt-16 md:mt-0 md:justify-center flex-col md:flex-row">
+      <div className="w-full h-full flex items-center mt-16 md:mt-0 md:justify-center flex-col md:flex-row">
         <div id="profile-pic" className="pr-3">
           <img className="rounded-full w-48 h-48 md:h-80 md:w-80" src={profile} alt="profile" />
         </div>
