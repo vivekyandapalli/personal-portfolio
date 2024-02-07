@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.e488d49f.css",
-    "main.js": "/personal-portfolio/static/js/main.83b32d13.js",
+    "main.js": "/personal-portfolio/static/js/main.00475ef1.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/profile-pic.png": "/personal-portfolio/static/media/profile-pic.d8c078afecaad4808f54.png",
     "static/media/league-spartan-latin-200-normal.woff": "/personal-portfolio/static/media/league-spartan-latin-200-normal.07aae7dafa56e878ccdf.woff",
@@ -25,11 +25,11 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/wave.svg": "/personal-portfolio/static/media/wave.6f0cf9f79c4d7580ac41fe585495549c.svg",
     "main.e488d49f.css.map": "/personal-portfolio/static/css/main.e488d49f.css.map",
-    "main.83b32d13.js.map": "/personal-portfolio/static/js/main.83b32d13.js.map",
+    "main.00475ef1.js.map": "/personal-portfolio/static/js/main.00475ef1.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e488d49f.css",
-    "static/js/main.83b32d13.js"
+    "static/js/main.00475ef1.js"
   ]
 }
